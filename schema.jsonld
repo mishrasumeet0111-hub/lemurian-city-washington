@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-washington-dc#service",
+      "name": "Website design in Washington, DC",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-washington-dc",
+      "description": "Website design in Washington, DC for businesses across the Washington metro: custom sites, brand identity and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Washington, District of Columbia",
+          "sameAs": "https://www.wikidata.org/wiki/Q61"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Fairfax County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Montgomery County, Maryland"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Prince George's County, Maryland"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "District of Columbia, District of Columbia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Prince William County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Loudoun County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Frederick County, Maryland"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Arlington County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Charles County, Maryland"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Stafford County, Virginia"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Washington businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in District of Columbia",
+          "item": "https://www.lemurianstudios.com/services/web-design-district-of-columbia"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Washington, DC",
+          "item": "https://www.lemurianstudios.com/services/website-design-washington-dc"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you build an accessible site for federal clients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We can. We build to WCAG 2.1 AA, which covers the WCAG 2.0 AA standard Section 508 refers to, and test with a keyboard and a screen reader before launch."
+          }
+        }
+      ]
+    }
+  ]
+}
